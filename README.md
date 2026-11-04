@@ -20,14 +20,22 @@ El entorno está desplegado sobre un hipervisor local (VirtualBox) utilizando m�
   - IP Estática: `192.168.56.11`
   - Propósito: Validación de accesos, montajes de red y pruebas de aislamiento de usuarios.
 
-
 ```mermaid
 graph LR
-    Client[Host / Cliente <br> 192.168.56.1] -->|SSH 22| VM[debian-infra <br> 192.168.56.10]
-    Client -->|NFS 2049| VM
-    Client -->|SMB 445| VM
-```
+    Client("<b>Host / Cliente</b><br>192.168.56.1")
+    VM("<b>debian-infra /server</b><br>192.168.56.10")
 
+    Client -->|SSH · 22| VM
+    Client -->|NFS · 2049| VM
+    Client -->|SMB · 445| VM
+
+    classDef host fill:#eef2ff,stroke:#818cf8,stroke-width:2px,color:#1e1b4b
+    classDef server fill:#f0fdfa,stroke:#2dd4bf,stroke-width:2px,color:#134e4a
+
+    class Client host
+    class VM server
+    
+```
 
 ---
 
