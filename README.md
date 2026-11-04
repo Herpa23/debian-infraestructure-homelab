@@ -46,7 +46,6 @@ Para garantizar estabilidad, rendimiento y evitar que un desbordamiento de logs 
 - **`/home` y Directorios de Datos (`/srv`):** Espacios dedicados para puntos de montaje, recursos compartidos y jaulas de usuario.
 - **`swap`:** Memoria de intercambio optimizada para la máquina virtual.
 
----
 
 ## 📂 3. Estructura del Repositorio
 
