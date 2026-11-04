@@ -5,7 +5,6 @@ Homelab de infraestructura en Debian: almacenamiento, hardening, servicios de re
 
 Este repositorio documenta la construcción paso a paso de un entorno de infraestructura local basado en **Debian 12 (Bookworm)**, diseñado para simular servicios corporativos de almacenamiento, accesos seguros, endurecimiento de sistemas (hardening) y observabilidad.
 
----
 
 ## 🏗️ 1. Topología y Arquitectura del Lab
 
@@ -37,7 +36,6 @@ graph LR
     
 ```
 
----
 
 ## 💾 2. Diseño de Particionado y Almacenamiento
 
@@ -58,5 +56,5 @@ El proyecto se encuentra modularizado para facilitar la lectura y demostrar buen
 - **[Módulo 02: Almacenamiento en Red (NFS y Samba)](./02-nfs-samba-storage/)** -> Compartición de recursos y archivos en red local.
 - **[Módulo 03: Servidor SFTP Seguro con Chroot](./03-sftp-secure-chroot/)** -> Aislamiento de usuarios, llaves SSH centralizadas y resolución de incidencias (troubleshooting).
 
----
+
 *Autor: Herpa23 | Perfil enfocado en Infraestructura IT, SysAdmin y Cloud.*
